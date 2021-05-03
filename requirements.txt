@@ -1,4 +1,4 @@
 streamlit==0.81.0
-tensorflow==2.1.0
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-2.1.0-cp27-none-linux_x86_64.whl
 PIL==7.2.0
 numpy==1.18.5
