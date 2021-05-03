@@ -17,7 +17,7 @@ def teachable_machine_classification(img, weights_file):
 
     image_array = np.asarray(image)
     
-    normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
+    normalized_image_array = (image_array.astype(np.float32) / 255.0) 
 
     data[0] = normalized_image_array
 
