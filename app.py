@@ -31,7 +31,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded cell image', use_column_width=True)
     st.write("")
     st.write("Classifying...")
-    label = teachable_machine_classification(image, 'final_model.h5')
+    label = teachable_machine_classification(image, '/app/final_model.h5')
     if label == 0:
         st.write("This is a malaria infected cell")
     else:
