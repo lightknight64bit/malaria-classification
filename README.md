@@ -1,7 +1,10 @@
 # malaria-classification
 A web application that classifies between malaria and non malaria infected cell trained using a resnet50 model using keras.  
 Achieves 95% validation accuracy ,uses streamlit backend and is deployed using streamlit deploy. 
+The data used is the malaria dataset from kaggle:-
+[dataset link](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
 
+To run the code, please run build_dataset.py which automatically generates training, testing and validation data. Then proceed to the jupyter file.
 # How to use
 Click on the link given below  
 [malaria app](https://share.streamlit.io/lightknight64bit/malaria-classification)
