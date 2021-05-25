@@ -25,6 +25,7 @@ def teachable_machine_classification(img, weights_file):
     prediction = model.predict(data)
     return np.argmax(prediction) 
 
+st.title("Malaria Classification")
 uploaded_file = st.file_uploader("Upload cell image", type="png")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
