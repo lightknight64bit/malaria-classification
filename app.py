@@ -26,6 +26,7 @@ def teachable_machine_classification(img, weights_file):
     return np.argmax(prediction) 
 
 uploaded_file = st.file_uploader("Upload cell image", type="png")
+st.title("Malaria Classification")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='Uploaded cell image', use_column_width=True)
